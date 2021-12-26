@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- <base target="_blank" /> -->
+    <title>Sin Ru's Website</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style1.css" />
+    <style>
+      table,
+      th,
+      td {
+        border-collapse: collapse;
+        border: 3px solid rgb(215, 248, 243);
+      }
+      th,
+      td {
+        padding: 0.25rem;
+        background-color: rgb(165, 216, 199);
+        width: 300px;
+        height: 100px;
+        padding-top: 0px;
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-bottom: 0em;
+      }
+    </style>
+  </head>
+  <body>
+    <form action="" method="GET">
+      <h1>Welcome to Sin Ru's Personal Page</h1>
+      <h2>My favorite food</h2>
+      <table>
+        <tr>
+          <th>Stinky tofu</th>
+          <th>Egg drop soup</th>
+          <th>Lemon pie</th>
+        </tr>
+        <br />
+        <tr>
+          <th>
+            <img
+              src="https://travel.taichung.gov.tw/Utility/DisplayImage?id=1388"
+              width="300"
+              lengh="200"
+              alt="Stinky tofu"
+            />
+          </th>
+          <th>
+            <img
+              src="https://img.ltn.com.tw/Upload/food/page/2016/10/09/161009-4526-0-qRc4v.jpg"
+              width="300"
+              lengh="200"
+              alt="Egg drop soup"
+            />
+          </th>
+          <th>
+            <img
+              src="https://img.ltn.com.tw/Upload/food/page/2018/03/15/180315-7278-000-wgG1e.jpg"
+              width="300"
+              lengh="200"
+              alt="Lemon pie"
+            />
+          </th>
+        </tr>
+      </table>
+      <h3>Do you prefer sweet or salty?</h3>
+      <table>
+        <td>
+          <input type="radio" id="sweet" name="favor" value="Sweet" />sweet
+          <input type="radio" id="salty" name="favor" value="Salty" />salty
+          <input type="radio" id="other" name="favor" value="O" />other
+        </td>
+      </table>
+      <br />
+      <h2>My hobby</h2>
+      <table>
+        <tr>
+          <th>Play basketball</th>
+          <th>Binge-watched</th>
+          <th>Listen to cello sonata or r&b</th>
+        </tr>
+        <br />
+        <tr>
+          <th>
+            <img
+              src="https://sportsplanetmag-aws.hmgcdn.com/public/article/atl_20190325160556_138.jpg"
+              width="300"
+              lengh="200"
+              alt="Play basketball"
+            />
+          </th>
+          <th>
+            <img
+              src="https://s.yimg.com/ny/api/res/1.2/pbfBb4hVgBPlWoIoM4AKRw--/YXBwaWQ9aGlnaGxhbmRlcjt3PTk2MA--/https://s.yimg.com/os/creatr-uploaded-images/2021-05/726ba3d0-bf83-11eb-baeb-581c85aedea2"
+              width="300"
+              lengh="200"
+              alt="Binge-watched"
+            />
+          </th>
+          <th>
+            <img
+              src="https://image-resizer.cwg.tw/resize/uri/https%3A%2F%2Fas.chdev.tw%2Fweb%2Farticle%2F3%2F8%2F4%2F3e213b9e-8624-402f-9e07-4718689272651587521899.jpg/?w=621"
+              width="300"
+              lengh="200"
+              alt="Listen to cello sonata or r&b"
+            />
+          </th>
+        </tr>
+      </table>
+      <br />
+      <h3>Then,what is your interest?</h3>
+      <table>
+        <tr>
+          <td colspan="2" align="center">
+            <input type="checkbox" id="checkbox" name="favorite" value="ball" />
+            <label for="checkbox">play ball</label>
+            <input type="checkbox" id="checkbox" name="favorite" value="game" />
+            <label for="checkbox">play game</label>
+            <br />
+            <input
+              type="checkbox"
+              id="checkbox"
+              name="favorite"
+              value="sleep"
+            />
+            <label for="checkbox">sleep</label>
+            <input
+              type="checkbox"
+              id="checkbox"
+              name="favorite"
+              value="learn"
+            />
+            <label for="checkbox">learn</label>
+          </td>
+        </tr>
+        <br />
+      </table>
+      <tr>
+        <th colspan="3" align="center">
+          <button type="submit">Submit</button>
+          <button type="reset">Reset</button>
+        </th>
+      </tr>
+    </form>
+  </body>
+</html>
